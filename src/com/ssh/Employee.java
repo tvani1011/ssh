@@ -11,6 +11,10 @@ public class Employee {
 	}
 
 	public static void main(String[] args) {
+		Address ad = new Address();
+		ad.setColony("ntr colony");
+		ad.setStreet("gandi road");
+		System.out.println(ad);
 
 		Employee emp1 = new Employee("vani", "java");
 		Employee emp2 = new Employee("madhu", "react");
